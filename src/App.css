@@ -1,38 +1,62 @@
-.App {
-  text-align: center;
+
+.light {
+  color: gray;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.rank {
+  background: orange;
+  padding: 2px 3px 2px 3px;
   color: white;
+  border-radius: 3px;
+  font-size: 12px;
+  margin-left: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.icon {
+  margin-right: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.pointer {
+  cursor: pointer;
+}
+
+.red {
+  color: red;
+}
+.green {
+  color: green;
+}
+
+.padding10 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.detailPriceUsd {
+  font-size: 26px;
+}
+
+.borderLeft {
+  border-left: 1.5px solid #cfcfcf;
+}
+
+.padding20 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.padding-left20 {
+  padding-left: 20px;
+}
+
+.label-light {
+  color: gray;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.details-changepercent {
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 7px;
 }
