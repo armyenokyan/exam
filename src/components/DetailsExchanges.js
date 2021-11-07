@@ -9,18 +9,18 @@ const DetailsExchanges = ({ marketsData, setMarketsData }) => {
     sort
       ? setMarketsData(
           marketsData.sort((a, b) =>
-            +a.exchangeId > +b.exchangeId
+            a.exchangeId > b.exchangeId
               ? 1
-              : +b.exchangeId > +a.exchangeId
+              : b.exchangeId > a.exchangeId
               ? -1
               : 0
           )
         )
       : setMarketsData(
           marketsData.sort((a, b) =>
-            +a.exchangeId < +b.exchangeId
+            a.exchangeId < b.exchangeId
               ? 1
-              : +b.exchangeId < +a.exchangeId
+              : b.exchangeId < a.exchangeId
               ? -1
               : 0
           )
